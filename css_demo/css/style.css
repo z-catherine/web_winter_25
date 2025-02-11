@@ -1,0 +1,36 @@
+body{
+    background-color:antiquewhite; 
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 50 px;
+    background-color: darkgray;
+}
+
+.nav {
+    list-style: none;
+    text-align: center;
+}
+
+
+.nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.copy {
+    font-size: 15px;
+    color:blueviolet;
+    background-color:lightpink
+}
+
+.span1 {
+    color:lightsalmon
+}
+
+.span2{
+    color:lightcoral
+}

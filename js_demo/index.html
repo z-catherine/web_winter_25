@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catherine | JS Demo</title>
+    <link rel = "stylesheet" href = "css/style.css">
+    <script type = "text/javascript" src = "js/script.js"></script>
+</head>
+<body>
+    <h1>this is a heading</h1>
+    <h2>this is a subheading</h2>
+    <p><a href = "http://www.google.com" target = "_blank" onclick = "alert('why are you leaving \n dont leave')">google</a></p>
+
+    <h2>this is a subheading</h2>
+    <p>5 + 6 = ?</p>
+    <button onclick = "document.getElementById('add').innerHTML = 5 + 6">click here...</button>
+    <p id = "add"></p>
+
+    <h2>this is a subheading</h2>
+    <p>date and time?</p>
+    <button onclick = "document.getElementById('date').innerHTML = Date()">click here...</button>
+    <p id = "date"></p>
+
+    <h2>this is a subheading</h2>
+    <button onclick = "document.getElementById('change-text').innerHTML = 'this text changed'">click here...</button>
+    <p id="change-text">this text will change</p>
+
+    <h2>this is a subheading</h2>
+    <p>this is a paragraph</p>
+    <button onclick = "pFun()">click here to run a function</button>
+    <p id = "p-fun"></p>
+
+    <h2>this is a subheading</h2>
+    <button onclick = "askQuestion()">click here...</button>
+    <p id = "question"></p>
+
+    <script>
+        //alert('hello, world \n can we please have a snow day tommorow?')
+
+        function pFun() {
+            var p = document.getElementById('p-fun');
+            p.innerHTML = 'the function was run';
+        }
+    </script>
+</body>
+</html>
