@@ -1,0 +1,27 @@
+.title {
+    text-align: center;
+}
+
+.paragraph {
+    text-align: center; 
+    width: 50%; 
+    margin: 0 auto
+}
+
+.nav li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+.nav {
+    text-align: center
+}
+
+.list {
+    text-align: center
+}
+
+.list-content {
+    display:inline-block; 
+    text-align: center;
+}
